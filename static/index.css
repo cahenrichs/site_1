@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+}
+
+li {
+   display: inline;
+   font-size: 30px;
+}
+
+.navbar-nav {
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+}
+
+.photo img {
+    /* clip-path: circle(49% at 50% 51%); */
+    float: left;
+    max-width: 400px;
+    max-height: 400px;
+    margin-right: 50px;
+    overflow: hidden;
+}
+
+p {
+    font-size:26px;
+}
+
