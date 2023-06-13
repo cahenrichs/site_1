@@ -7,10 +7,23 @@ li {
    font-size: 30px;
 }
 
+.title {
+    padding-top: 20px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #e0e0e0;
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 8px, rgba(255,255,255,.5) 8px, rgba(255,255,255,.5) 10px);
+}
+
 .navbar-nav {
     padding-left: 100px;
     padding-right: 100px;
     text-align: center;
+    border-bottom: 1px solid gray;
+    text-decoration: none;
 }
 
 .photo img {
@@ -26,3 +39,27 @@ p {
     font-size:26px;
 }
 
+.wrapper {
+    position: relative;
+    margin: 0% auto;
+    width: 65%;
+    background: white;
+    box-shadow: 0px 0px 20px #bdbdbd;
+}
+
+footer {
+    padding: 6px;
+    flex: auto;
+}
+
+.foot {
+    border-top: 1px solid gray;
+    text-align: center;
+    padding: 30px;
+    font-size: large;
+
+}
+
+.foot_style:hover {
+    background-color: red;
+}
